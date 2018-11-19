@@ -1,0 +1,8 @@
+syntax = "proto3";
+package groups;
+
+import "groups.proto";
+
+service Service {
+    rpc Create(CreateGroupRequest) returns (Group) {}
+}
