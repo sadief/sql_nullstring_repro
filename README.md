@@ -1,5 +1,6 @@
-# Repro for issue #473 jmoiron/sqlx
+Reproduction for issue #473 jmoiron/sqlx
+========================================
 
 ## To Test
 
-- Run make run from root directory
+`go run main.go`
